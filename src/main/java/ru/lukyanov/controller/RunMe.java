@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class RunMe { // где_запускается_сайт -> localhost:8080
+public class RunMe {
 
     private final CustomerService customerService;
 
